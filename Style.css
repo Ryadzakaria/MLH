@@ -1,26 +1,38 @@
+header{
+   margin-bottom: 10px;
+   padding: 10px;
 
+}
 .header{
 	display: inline;
-	float: left;
 }
 #sign-up{
 	display: inline-block;
-	padding-top: 0px;
-	padding-left: auto;
-	padding-right: auto;
+	padding: auto;
 
 }
 #Ins-conn{
 	float: right;
-	display: inline-block;
-	padding-top: 0px;
-	padding-left: auto;
-	padding-right: auto;
+	display: flex;
+	flex-direction: column;
+	padding: auto;
+	justify-content: top;
 }
 #Login{
 	display: inline-block;
-	padding-left: 200%;
+	float: right;
 }
-h2 {
-	text-align: right;
+#logo{
+	float: left;
+}
+#body{
+	margin-top: 10px;
+	padding: auto;
+}
+.body{
+	display: block;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	resize: all;
 }
