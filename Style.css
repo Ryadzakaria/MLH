@@ -1,0 +1,32 @@
+header{
+	display:inline-flex;
+	border-style:none;
+	margin-bottom: auto;
+	padding-bottom: auto;
+	padding-left: auto;
+	padding-right: auto;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#sign-up{
+	display: inline-block;
+	/*text-align: center;*/
+	padding-top: 0px;
+	padding-left: 140%;
+	padding-right: auto;
+
+}
+#Ins-conn{
+	display: inline-block;
+	padding-top: 0px;
+	padding-left: 140%;
+	padding-right: auto;
+}
+#Login{
+	display: inline-flex;
+	padding-left: 200%;
+}
+h2 {
+	text-align: right;
+}
