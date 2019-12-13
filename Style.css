@@ -34,26 +34,45 @@ button{
     float: right;
 }
 .body{
-	position: fixed;
-	display:block;
-	width: 100%;
-	height: 80%;
+  position: fixed;
+  display:block;
+  width: 100%;
+  height: 80%;
     border-style: solid;
     top: 10%;
     left: 0;
+    background-color: silver;
 }
 #part1{
    display: block;
    width: 100%;
-   height: 35%;
-   border-style: dotted;
+   height: 50%;
+   background: linear-gradient(to right, black, white);
+   margin-bottom:  0;
+   padding-bottom:  0; 
+   position: relative;
 }
+#part1 img{
+ width:40% ;
+ height:100%;
+ left:0;
+}
+
+
+
 #part2{
+   position: relative;
+   margin-top:  0;
+   padding-top:  0; 
    display: block;
    width: 100%;
-   height: 30%;
-   border-style: dotted;
-   border-color: red;
+   height: 50%;
+   background: linear-gradient(to left, black, white);
+}
+#part2 img{
+  width: 40%;
+  height:100%;
+  float: right;
 }
 #part3{
    display: block;
@@ -63,7 +82,7 @@ button{
    border-color: blue;
 }
 footer{
-	display:flex;
+  display:flex;
     flex-direction: row;
     align-content: stretch;
     align-items: center;
